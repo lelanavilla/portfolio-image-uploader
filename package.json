@@ -1,0 +1,27 @@
+{
+  "name": "mongouploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test":"mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.3.4",
+    "multer": "^1.4.1",
+    "multer-gridfs-storage": "^3.2.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
